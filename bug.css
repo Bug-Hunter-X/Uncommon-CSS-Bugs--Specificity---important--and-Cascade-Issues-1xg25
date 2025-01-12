@@ -1,0 +1,1 @@
+The CSS specificity rules can lead to unexpected styling behavior if not carefully considered.  For instance, a more specific selector might override a general selector unintentionally, causing elements to not be styled as expected.  Another issue is the use of !important, which can create a cascade of overriding styles that makes CSS difficult to maintain and debug.
