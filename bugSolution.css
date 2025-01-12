@@ -1,0 +1,26 @@
+/* bugSolution.css */
+/* Avoid unnecessary specificity and the use of !important. Organize CSS selectors in a logical order, using cascading rules to achieve desired styles. */
+
+.container {
+  background-color: lightgray;
+}
+
+.item {
+  color: blue;
+}
+
+/* Instead of using !important, make sure selector specificity is correct */
+.item.special {
+  color: red; 
+}
+
+/* Use more specific selectors instead of !important */
+.container .item {
+  padding: 10px;
+}
+
+/* Maintain proper selector order */
+.container .item.special {
+  padding: 20px;
+  color: green;
+}
